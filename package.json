@@ -4,7 +4,7 @@
   "description": "discord js bot",
   "main": "index.js",
   "scripts": {
-    "start":"node register_commands.js && node index.js",
+    "start":"node register_commands.js && node index.js"
   },
   "author": "",
   "license": "ISC",
