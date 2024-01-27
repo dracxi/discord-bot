@@ -1,7 +1,9 @@
 const { Client, IntentsBitField, Collection ,Events} = require("discord.js");
 const fs = require("node:fs");
 const path = require("node:path");
+const keep_alive = require("./keep_alive.js");
 require('dotenv').config()
+
 
 const client = new Client({
   intents: [
