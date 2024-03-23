@@ -4,12 +4,12 @@
   "description": "discord js bot",
   "main": "index.js",
   "scripts": {
-    "start":"node register_commands.js && node index.js"
+    "start": "node register_commands.js && node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.14.1",
+    "discord.js": "^14.12.1",
     "dotenv": "^16.4.1",
     "node-fetch": "^3.3.2"
   },
